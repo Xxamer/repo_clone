@@ -4,6 +4,6 @@
 
 3.- Change name of .env.example to .env and paste your token on the GITHUB_BEARER variable
 
-4.- Execute the main.py with ```./main.py ``` or with ``` python3 main.py ``` inside the folder
+4.- Execute the main.py with ```./main.py ```  or with ``` python3 main.py ``` inside the folder
 
 5.- Enjoy! 
