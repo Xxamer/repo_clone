@@ -42,7 +42,7 @@ def createList(repositories_name):
 def getListOfRepositories():
     names = []
     headers = { 'Authorization': "Bearer " + TOKEN }
-    # # List repositories
+    # List repositories
     github_repositories = requests.get(URL, headers = headers)
     data = github_repositories.json()
     # Display names and  push it to display them
